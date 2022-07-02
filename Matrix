@@ -1,0 +1,8 @@
+import sys
+from time import sleep
+
+words = "The Matrix has you, Neo!!!"
+for char in words:
+    sleep(0.5)
+    sys.stdout.write(char)
+    sys.stdout.flush()
